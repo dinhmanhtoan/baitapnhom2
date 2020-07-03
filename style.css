@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#active{
+    color: #d13447;
+    display: block;
+}
+.hide{
+    display: none;
+}
+.active{
+    color: #d13447;
+    display: inline-block;
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: #140507;
+
+}
+.container{
+    width: 1170px;
+    margin:  0 30px;
+    margin: auto;
+}
+.top_header{
+    width: 100%;
+  
+    /* padding: 0 30px; */
+}
+.navbar_header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 80px;
+    line-height: 100px;
+
+}
+.navbar_header{
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar_header>ul>li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 14px;
+
+}
+.navbar_header>ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.navbar_header>ul>li>a:hover{
+    color: #d13447; 
+}
+.top_toolbar{
+    display: flex;
+    color: white;
+}
+.top_toolbar div{
+    padding:  0 10px;
+}
+.top_toolbar div i:hover{
+   cursor: pointer;
+   color: #d13447;
+
+
+}
+.sub-menu{
+    min-width: 247px;
+    position: absolute;
+    list-style: none;
+    background: rgba(0,0,0,0.9);
+    top: 80px;
+    left: 0;
+    line-height: 3rem;
+    padding: 1rem;
+    font-size: 14px;
+    cursor: initial;
+}
+.sub-menu li a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.sub-menu li a:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+.level1{
+    position: relative;
+}
+.level2{
+    position: relative;
+}
+.column{
+    position: absolute;
+    list-style: none;
+    background: rgba(0,0,0,0.9);
+    top: 80px;
+    left: -600%;
+    line-height: 2.5rem;
+    padding: 1rem;
+    width: 1000%;
+    font-size: 14px;
+}
+
+.column>ul>li{
+    list-style: none;
+    cursor: unset;
+}
+.list>li:first-child a{
+    border-bottom: 1px solid white;
+}
+.list:last-child>li:last-child a{
+    border-bottom: none;
+}
+.list li{
+    list-style: none;
+    
+}
+.list li a{
+    text-decoration: none;
+    color: white; 
+}
+.list li a:hover{
+        color: tomato;
+}
+#activelevel2{
+    display: flex;
+}
+.sub-menu2{
+    position: absolute;
+    list-style: none;
+    background: rgba(0,0,0,0.9);
+    top: 20px;
+    right: -100%;
+    line-height: 3rem;
+    padding: 1rem;
+
+}
+/* .level3{
+    position: relative;
+ 
+} */
